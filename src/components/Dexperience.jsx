@@ -39,7 +39,7 @@ function Dexperience() {
   return (
     <div>
       <div className="w-screen h-screen relative">
-        <p className="text-4xl font-bold leading-none text-center">Something totally different</p>
+        {/* <p className="text-4xl font-bold leading-none text-center">Something totally different</p> */}
         <div
           className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
           style={{ pointerEvents: 'none' }}
