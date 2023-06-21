@@ -9,9 +9,7 @@ function Vitals() {
                 <p className="text-sm text-gray-900">
                 Healthcare Company For Tracking Your Health With Cutting Edge Technologies.</p>
                 <br/>
-                <p className="italic text-gray-900">We strive to push the boundaries of health technology, combining innovative technologies with medical expertise to improve patient outcomes and promote healthier lifestyles.
-
-</p>
+                {/* <p className="italic text-gray-900">We strive to push the boundaries of health technology, combining innovative technologies with medical expertise to improve patient outcomes and promote healthier lifestyles.</p> */}
               </div>
             </div>
     </div>
