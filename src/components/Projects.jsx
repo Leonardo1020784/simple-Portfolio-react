@@ -6,7 +6,7 @@ function Projects() {
 <section>
 	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 		<div>
-			<h2 className="text-3xl font-bold tracki text-center sm:text-5xl text-white">Holding Projects working On</h2>
+			<h2 className="text-3xl font-bold tracki text-center sm:text-5xl">Holding Projects working On</h2>
 		</div>
 		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 			<div>

@@ -44,7 +44,7 @@ function Hero() {
         <h3 className={`text-lg mb-4 bg-gradient-to-r ${getBackgroundColor(currentRoleIndex)} flex text-white p-2 rounded-lg`}>
           {roles[currentRoleIndex]}
         </h3>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-sm">
           With a diverse range of experiences across various international companies, I possess a strong entrepreneurial mindset and extensive knowledge in the field of marketing, programming, business, and health.
         </p>
         <br/>
