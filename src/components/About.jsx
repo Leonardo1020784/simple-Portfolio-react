@@ -4,7 +4,7 @@ import {yo} from '../assets'
 function About() {
   return (
     <div>
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="m-5 rounded-lg bg-gradient-to-r from-slate-100 to-slate-100 p-5">
       <div className="mx-auto sm:text-center lg:max-w-2xl">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
@@ -44,18 +44,18 @@ function About() {
           I'm excited to bring my diverse skill set to your company and make a positive impact on your team.
           </p>
         </div>
-        <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
+        <div className=" flex justify-center">
           <img
-            className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
+            className="object-cover w-40 h-40 rounded shadow-lg sm:h-42 xl:h-40 sm:w-42 xl:w-40 bg-black"
             src={yo}
             alt=""
           />
         </div>
-        <p className="max-w-xl mb-4 text-base text-gray-700 sm:mx-auto">
-        International Business man working for international companies, making this world a better place for us. 🌍
+        <p className="max-w-xl mb-4 text-base text-gray-700 sm:mx-auto mt-10">
+        Business man helping international companies, making this world a better place for us. 🌍
         </p>
         <a
-          href="https://wa.me/573229177892"
+          href="https://telegram.me/siriusls"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
         >

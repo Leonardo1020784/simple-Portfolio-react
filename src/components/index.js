@@ -1,4 +1,4 @@
-import Projects from "./Projects";
+import Marketing from "./Marketing";
 import Projects2 from "./Projects2";
 import Projects3 from "./Projects3";
 
@@ -7,15 +7,15 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Home from "./Home";
 import Logo from "./Logo";
-import Vitals from "./Vitals";
+import Projects from "./Projects";
 
 export {
   Projects2,
   Projects3,
-  Vitals,
+  Projects,
   Logo,
   Home,
-  Projects,
+  Marketing,
   Navbar,
   About,
   Hero,

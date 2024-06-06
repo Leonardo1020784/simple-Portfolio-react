@@ -1,98 +1,117 @@
 import React from 'react'
-import { facebook, yreport, greport } from '../assets';
+import {vitales, aum} from '../assets'
 
 function Projects() {
   return (
-    <div>
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 m-5">
-      <div className="grid gap-10 lg:grid-cols-2">
-        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
-            <svg className="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
-              <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                points=" 8,5 8,1 16,1 16,5"
-                strokeLinejoin="round"
-              />
-              <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                points="9,15 1,15 1,5 23,5 23,15 15,15"
-                strokeLinejoin="round"
-              />
-              <polyline
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                points="22,18 22,23 2,23 2,18"
-                strokeLinejoin="round"
-              />
-              <rect
-                x="9"
-                y="13"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                width="6"
-                height="4"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-          <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            The Ultimate 
-
-          <br className="hidden md:block" />
-          Campaign Ads {' '}
-              <span className="inline-block text-deep-purple-accent-400">
-              Experience
-              </span>
-            </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              I guarantee to attract more customers and maximize your brand's visibility. 
-            </p ><br/>
-            <p className="italic text-base text-gray-700 md:text-lg">I understand that every business is unique. That's why I develop customized strategies that align with your specific goals and target audience. </p>
-          </div>
-        </div>
-
-        <div className="flex items-center justify-center -mx-4 lg:pl-8">
-  <div className="flex flex-col items-end px-3">
-    <img
-      className="object-cover mb-6 rounded-lg shadow-xl h-40 w-50 border border-transparent hover:border-purple-500 hover:shadow-2xl transform hover:scale-110 transition duration-500"
-      src={yreport}
-      alt=""
-    />
-    <img
-      className="object-cover w-40 h-40 rounded-lg shadow-xl border border-transparent hover:border-purple-500 hover:shadow-2xl transform hover:scale-110 transition duration-500"
-      src={facebook}
-      alt=""
-    />
-  </div>
-  <div className="px-3">
-    <img
-      className="object-cover w-60 h-90 rounded-lg shadow-xl border border-transparent hover:border-purple-500 hover:shadow-2xl transform hover:scale-110 transition duration-500"
-      src={greport}
-      alt=""
-    />
-  </div>
-</div>
-
-
-      </div>
-    </div>
-    </div>
+<section>
+	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+		<div>
+			<h2 className="text-3xl font-bold tracki text-center sm:text-5xl text-white">Holding Projects working On</h2>
+		</div>
+		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+			<div>
+				<h3 className="text-2xl font-bold tracki sm:text-3xl">VITALES</h3>
+				<p className="mt-3 text-lg">Connecting lives between patients, caregivers, and coaches with cutting-edge technology, anytime, anywhere.</p>
+				<div className="mt-12 space-y-12">
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leadi">Where Health Meets Innovation</h4>
+							<p className="mt-2">We strive to push the boundaries of health, combining innovative technologies with medical expertise to improve patient outcomes and promote healthier lifestyles.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leadi">Healthcare Data Universal</h4>
+							<p className="mt-2">The lack of standardization of healthcare data and the time delay makes it difficult for patients and healthcare providers to access and share information easily. Now we have a solution.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leadi">High-quality mhealth</h4>
+							<p className="mt-2">We believe that everyone should have access to high-quality health, and we aim to achieve this by leveraging cutting-edge technology improving patient outcomes and enhancing the patient experience.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div aria-hidden="true" className="mt-10 lg:mt-0">
+				<img src={vitales} alt="" className="w-96 h-96 mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+			</div>
+		</div>
+		<div>
+			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+				<div className="lg:col-start-2">
+					<h3 className="text-2xl font-bold tracki sm:text-3xl">AUM</h3>
+					<p className="mt-3 text-lg">Connecting students and tutors globally through innovative technology for an inspiring learning journey!</p>
+					<div className="mt-12 space-y-12">
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leadi">Learn, Earn, and Grow with AUM</h4>
+								<p className="mt-2">Learning a new language has never been more rewarding. At AUM, we've combined innovative technologies to create a unique language learning experience. With our app, you can learn different languages at your own pace and earn while you learn.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leadi">AI-Powered Language Learning</h4>
+								<p className="mt-2">Our language learning system is designed to adapt to your learning style. Whether you're a beginner or an advanced learner, our app, tutors and students are here to guide you every step of the way.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leadi">Learn and Earn Program</h4>
+								<p className="mt-2">We believe in rewarding hard work. That's why we've introduced our unique 'Learn and Earn' program.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+					<img src={aum} alt="" className="w-96 h-96 mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
   )
 }
 

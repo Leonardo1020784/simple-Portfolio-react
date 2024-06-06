@@ -37,10 +37,10 @@ function Hero() {
   };
 
   return (
-    <div className="m-5 rounded-lg grid md:grid-cols-2 items-center justify-center h-screen bg-gray-100">
+    <div className="m-5 rounded-lg grid md:grid-cols-2 items-center justify-center h-screen bg-gradient-to-r from-slate-100 to-slate-100">
       <div className="bg-white p-8 m-5 rounded-lg">
         <h1 className="text-4xl font-bold mb-4">Leonardo Mejia</h1>
-        <h2 className="text-2xl mb-4">Creative Business Developer</h2>
+        <h2 className="text-2xl mb-4">Business Developer</h2>
         <h3 className={`text-lg mb-4 bg-gradient-to-r ${getBackgroundColor(currentRoleIndex)} flex text-white p-2 rounded-lg`}>
           {roles[currentRoleIndex]}
         </h3>
@@ -48,7 +48,6 @@ function Hero() {
           With a diverse range of experiences across various international companies, I possess a strong entrepreneurial mindset and extensive knowledge in the field of marketing, programming, business, and health.
         </p>
         <br/>
-        <p className="text-blue-500">Check my work</p>
       </div>
       <div className="flex items-center justify-center">
       <img

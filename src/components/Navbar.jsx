@@ -34,12 +34,12 @@ function Navbar() {
   }, [index]);
 
   return (
-    <nav className="m-5 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600">
+    <nav className="m-5 rounded-lg bg-gradient-to-r from-slate-100 to-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Logo />
-            <div className='text-white'>
+            <div className='text-black'>
               {text}
               <span className="animate-blink">|</span>
             </div>

@@ -1,12 +1,12 @@
 import React from 'react'
 import About from './About'
 import Hero from './Hero'
-import Projects from './Projects'
+import Marketing from './Marketing'
 import Projects2 from './Projects2'
 import Projects3 from './Projects3'
-
 import Navbar from './Navbar'
-import Dexperience from './Dexperience'
+import Projects from './Projects'
+ 
 
 
 function Home() {
@@ -14,8 +14,8 @@ function Home() {
     <div>
         <Navbar/>
         <Hero/>
-        <Dexperience/>
         <Projects/>
+        <Marketing/>
         <Projects2/>
         <Projects3/>
 
